@@ -1,4 +1,4 @@
-// const button = document.querySelector("button");
+// const button = document.querySelector("button")!;
 // const input1 = document.getElementById("num1")! as HTMLInputElement;
 // const input2 = document.getElementById("num2")! as HTMLInputElement;
 
@@ -15,14 +15,13 @@ let Name: string;
 let toggle: boolean;
 let empty: null;
 let notInitialize: undefined;
-let callback = (a: number) => number;
 
 age = 50;
 Name = "Max";
 toggle = true;
 empty = null;
 notInitialize = undefined;
-callback = (a) => {
+let callback = (a: number) => {
   return 100 + a;
 };
 2;
